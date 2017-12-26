@@ -15,6 +15,28 @@
 		2020B69E1FE8A6F400090D9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020B69D1FE8A6F400090D9E /* main.m */; };
 		2020B6A81FE8A6F400090D9E /* PJSIPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020B6A71FE8A6F400090D9E /* PJSIPDemoTests.m */; };
 		2020B6B31FE8A6F400090D9E /* PJSIPDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020B6B21FE8A6F400090D9E /* PJSIPDemoUITests.m */; };
+		2020B6C91FE8A77800090D9E /* CMAllMediaVoipSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020B6C81FE8A77800090D9E /* CMAllMediaVoipSDKManager.m */; };
+		2020B6D11FE8A90500090D9E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6D01FE8A90500090D9E /* CoreTelephony.framework */; };
+		2020B6D31FE8A90F00090D9E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6D21FE8A90F00090D9E /* SystemConfiguration.framework */; };
+		2020B6D51FE8A91F00090D9E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6D41FE8A91F00090D9E /* AVFoundation.framework */; };
+		2020B6D71FE8A92900090D9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6D61FE8A92900090D9E /* UIKit.framework */; };
+		2020B6D91FE8A93400090D9E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6D81FE8A93400090D9E /* CoreLocation.framework */; };
+		2020B6DB1FE8A94900090D9E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6DA1FE8A94900090D9E /* CoreMedia.framework */; };
+		2020B6DD1FE8A95700090D9E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6DC1FE8A95700090D9E /* libc++.tbd */; };
+		2020B6DF1FE8A96000090D9E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6DE1FE8A96000090D9E /* libz.tbd */; };
+		2020B6E11FE8A96A00090D9E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6E01FE8A96A00090D9E /* libsqlite3.tbd */; };
+		2020B6E31FE8A97E00090D9E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6E21FE8A97E00090D9E /* MobileCoreServices.framework */; };
+		2020B6E61FE8A9B500090D9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6E51FE8A9B500090D9E /* QuartzCore.framework */; };
+		2020B6E71FE8A9E900090D9E /* libCMPJSIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6C61FE8A71900090D9E /* libCMPJSIP.a */; };
+		2020B6E81FE8A9F000090D9E /* CMVoipCallInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 2020B6C21FE8A71800090D9E /* CMVoipCallInfo.h */; };
+		2020B6E91FE8A9F000090D9E /* CMSoftPhoneInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 2020B6C31FE8A71800090D9E /* CMSoftPhoneInfo.h */; };
+		2020B6EA1FE8A9F000090D9E /* CMPJSIP.h in Sources */ = {isa = PBXBuildFile; fileRef = 2020B6C41FE8A71800090D9E /* CMPJSIP.h */; };
+		2020B6EE1FE8AA6700090D9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6ED1FE8AA6700090D9E /* CoreGraphics.framework */; };
+		2020B6F01FE8AA7100090D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020B6EF1FE8AA7100090D9E /* Foundation.framework */; };
+		2020B6F11FE8AAAA00090D9E /* CMAMReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020B6CB1FE8A7AD00090D9E /* CMAMReachability.m */; };
+		2020B6F21FE8AAAA00090D9E /* CMAMNetStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020B6CC1FE8A7AD00090D9E /* CMAMNetStatusManager.m */; };
+		2020B6F51FE8AAE700090D9E /* CMAllMediaVoipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020B6F31FE8AAE700090D9E /* CMAllMediaVoipView.m */; };
+		2020B6F81FE8AB1F00090D9E /* UIView+CMAMLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020B6F71FE8AB1F00090D9E /* UIView+CMAMLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +73,33 @@
 		2020B6AE1FE8A6F400090D9E /* PJSIPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJSIPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2020B6B21FE8A6F400090D9E /* PJSIPDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJSIPDemoUITests.m; sourceTree = "<group>"; };
 		2020B6B41FE8A6F400090D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2020B6C21FE8A71800090D9E /* CMVoipCallInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMVoipCallInfo.h; sourceTree = "<group>"; };
+		2020B6C31FE8A71800090D9E /* CMSoftPhoneInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSoftPhoneInfo.h; sourceTree = "<group>"; };
+		2020B6C41FE8A71800090D9E /* CMPJSIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMPJSIP.h; sourceTree = "<group>"; };
+		2020B6C61FE8A71900090D9E /* libCMPJSIP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCMPJSIP.a; sourceTree = "<group>"; };
+		2020B6C71FE8A77800090D9E /* CMAllMediaVoipSDKManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAllMediaVoipSDKManager.h; sourceTree = "<group>"; };
+		2020B6C81FE8A77800090D9E /* CMAllMediaVoipSDKManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaVoipSDKManager.m; sourceTree = "<group>"; };
+		2020B6CB1FE8A7AD00090D9E /* CMAMReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAMReachability.m; sourceTree = "<group>"; };
+		2020B6CC1FE8A7AD00090D9E /* CMAMNetStatusManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAMNetStatusManager.m; sourceTree = "<group>"; };
+		2020B6CD1FE8A7AD00090D9E /* CMAMReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAMReachability.h; sourceTree = "<group>"; };
+		2020B6CE1FE8A7AD00090D9E /* CMAMNetStatusManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAMNetStatusManager.h; sourceTree = "<group>"; };
+		2020B6D01FE8A90500090D9E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2020B6D21FE8A90F00090D9E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2020B6D41FE8A91F00090D9E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2020B6D61FE8A92900090D9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2020B6D81FE8A93400090D9E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2020B6DA1FE8A94900090D9E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2020B6DC1FE8A95700090D9E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2020B6DE1FE8A96000090D9E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2020B6E01FE8A96A00090D9E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2020B6E21FE8A97E00090D9E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2020B6E51FE8A9B500090D9E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2020B6ED1FE8AA6700090D9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2020B6EF1FE8AA7100090D9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2020B6F31FE8AAE700090D9E /* CMAllMediaVoipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaVoipView.m; sourceTree = "<group>"; };
+		2020B6F41FE8AAE700090D9E /* CMAllMediaVoipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaVoipView.h; sourceTree = "<group>"; };
+		2020B6F61FE8AB1F00090D9E /* UIView+CMAMLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CMAMLayout.h"; sourceTree = "<group>"; };
+		2020B6F71FE8AB1F00090D9E /* UIView+CMAMLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CMAMLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2020B6F01FE8AA7100090D9E /* Foundation.framework in Frameworks */,
+				2020B6EE1FE8AA6700090D9E /* CoreGraphics.framework in Frameworks */,
+				2020B6E71FE8A9E900090D9E /* libCMPJSIP.a in Frameworks */,
+				2020B6E61FE8A9B500090D9E /* QuartzCore.framework in Frameworks */,
+				2020B6E31FE8A97E00090D9E /* MobileCoreServices.framework in Frameworks */,
+				2020B6E11FE8A96A00090D9E /* libsqlite3.tbd in Frameworks */,
+				2020B6DF1FE8A96000090D9E /* libz.tbd in Frameworks */,
+				2020B6DD1FE8A95700090D9E /* libc++.tbd in Frameworks */,
+				2020B6DB1FE8A94900090D9E /* CoreMedia.framework in Frameworks */,
+				2020B6D91FE8A93400090D9E /* CoreLocation.framework in Frameworks */,
+				2020B6D71FE8A92900090D9E /* UIKit.framework in Frameworks */,
+				2020B6D51FE8A91F00090D9E /* AVFoundation.framework in Frameworks */,
+				2020B6D31FE8A90F00090D9E /* SystemConfiguration.framework in Frameworks */,
+				2020B6D11FE8A90500090D9E /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +148,7 @@
 				2020B6A61FE8A6F400090D9E /* PJSIPDemoTests */,
 				2020B6B11FE8A6F400090D9E /* PJSIPDemoUITests */,
 				2020B68C1FE8A6F400090D9E /* Products */,
+				2020B6CF1FE8A90500090D9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +165,18 @@
 		2020B68D1FE8A6F400090D9E /* PJSIPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2020B6C01FE8A70600090D9E /* libs */,
+				2020B6CA1FE8A7AD00090D9E /* CMNetworkingReachablity */,
+				2020B6F61FE8AB1F00090D9E /* UIView+CMAMLayout.h */,
+				2020B6F71FE8AB1F00090D9E /* UIView+CMAMLayout.m */,
+				2020B6C71FE8A77800090D9E /* CMAllMediaVoipSDKManager.h */,
+				2020B6C81FE8A77800090D9E /* CMAllMediaVoipSDKManager.m */,
 				2020B68E1FE8A6F400090D9E /* AppDelegate.h */,
 				2020B68F1FE8A6F400090D9E /* AppDelegate.m */,
 				2020B6911FE8A6F400090D9E /* ViewController.h */,
 				2020B6921FE8A6F400090D9E /* ViewController.m */,
+				2020B6F41FE8AAE700090D9E /* CMAllMediaVoipView.h */,
+				2020B6F31FE8AAE700090D9E /* CMAllMediaVoipView.m */,
 				2020B6941FE8A6F400090D9E /* Main.storyboard */,
 				2020B6971FE8A6F400090D9E /* Assets.xcassets */,
 				2020B6991FE8A6F400090D9E /* LaunchScreen.storyboard */,
@@ -130,6 +202,64 @@
 				2020B6B41FE8A6F400090D9E /* Info.plist */,
 			);
 			path = PJSIPDemoUITests;
+			sourceTree = "<group>";
+		};
+		2020B6C01FE8A70600090D9E /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				2020B6C11FE8A71800090D9E /* voipInclude */,
+				2020B6C51FE8A71900090D9E /* voipLib */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		2020B6C11FE8A71800090D9E /* voipInclude */ = {
+			isa = PBXGroup;
+			children = (
+				2020B6C21FE8A71800090D9E /* CMVoipCallInfo.h */,
+				2020B6C31FE8A71800090D9E /* CMSoftPhoneInfo.h */,
+				2020B6C41FE8A71800090D9E /* CMPJSIP.h */,
+			);
+			path = voipInclude;
+			sourceTree = "<group>";
+		};
+		2020B6C51FE8A71900090D9E /* voipLib */ = {
+			isa = PBXGroup;
+			children = (
+				2020B6C61FE8A71900090D9E /* libCMPJSIP.a */,
+			);
+			path = voipLib;
+			sourceTree = "<group>";
+		};
+		2020B6CA1FE8A7AD00090D9E /* CMNetworkingReachablity */ = {
+			isa = PBXGroup;
+			children = (
+				2020B6CD1FE8A7AD00090D9E /* CMAMReachability.h */,
+				2020B6CB1FE8A7AD00090D9E /* CMAMReachability.m */,
+				2020B6CE1FE8A7AD00090D9E /* CMAMNetStatusManager.h */,
+				2020B6CC1FE8A7AD00090D9E /* CMAMNetStatusManager.m */,
+			);
+			path = CMNetworkingReachablity;
+			sourceTree = "<group>";
+		};
+		2020B6CF1FE8A90500090D9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2020B6EF1FE8AA7100090D9E /* Foundation.framework */,
+				2020B6ED1FE8AA6700090D9E /* CoreGraphics.framework */,
+				2020B6E51FE8A9B500090D9E /* QuartzCore.framework */,
+				2020B6E21FE8A97E00090D9E /* MobileCoreServices.framework */,
+				2020B6E01FE8A96A00090D9E /* libsqlite3.tbd */,
+				2020B6DE1FE8A96000090D9E /* libz.tbd */,
+				2020B6DC1FE8A95700090D9E /* libc++.tbd */,
+				2020B6DA1FE8A94900090D9E /* CoreMedia.framework */,
+				2020B6D81FE8A93400090D9E /* CoreLocation.framework */,
+				2020B6D61FE8A92900090D9E /* UIKit.framework */,
+				2020B6D41FE8A91F00090D9E /* AVFoundation.framework */,
+				2020B6D21FE8A90F00090D9E /* SystemConfiguration.framework */,
+				2020B6D01FE8A90500090D9E /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +395,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2020B6F11FE8AAAA00090D9E /* CMAMReachability.m in Sources */,
+				2020B6F21FE8AAAA00090D9E /* CMAMNetStatusManager.m in Sources */,
+				2020B6E81FE8A9F000090D9E /* CMVoipCallInfo.h in Sources */,
+				2020B6E91FE8A9F000090D9E /* CMSoftPhoneInfo.h in Sources */,
+				2020B6EA1FE8A9F000090D9E /* CMPJSIP.h in Sources */,
+				2020B6F51FE8AAE700090D9E /* CMAllMediaVoipView.m in Sources */,
+				2020B6F81FE8AB1F00090D9E /* UIView+CMAMLayout.m in Sources */,
 				2020B6931FE8A6F400090D9E /* ViewController.m in Sources */,
+				2020B6C91FE8A77800090D9E /* CMAllMediaVoipSDKManager.m in Sources */,
 				2020B69E1FE8A6F400090D9E /* main.m in Sources */,
 				2020B6901FE8A6F400090D9E /* AppDelegate.m in Sources */,
 			);
@@ -370,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +557,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -431,9 +569,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				DEVELOPMENT_TEAM = U746D2ER88;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PJSIPDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PJSIPDemo/libs/voipLib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PJSIPDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,9 +588,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				DEVELOPMENT_TEAM = U746D2ER88;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PJSIPDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PJSIPDemo/libs/voipLib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PJSIPDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
